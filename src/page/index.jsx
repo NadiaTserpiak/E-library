@@ -4,8 +4,8 @@ import { useList } from "../hooks";
 import Pagination from "../components/pagination";
 import config from "../config/config";
 import { GET_ALL_BOOKS } from "../graphql/queries";
-import BookCard from "../components/BookCard";
-import Loader from "../components/Loader";
+import BookCard from "../components/bookCard";
+import Loader from "../components/loader";
 
 export default function Home() {
   const {

@@ -2,7 +2,7 @@ import Stack from "../sdk/entry"
 import React, { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom";
 import config from "../config/config";
-import Loader from "../components/Loader";
+import Loader from "../components/loader";
 
 export default function Book() {
   const { bookUrl } = useParams();
